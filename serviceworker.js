@@ -5,7 +5,7 @@ var urlsToCache = [
     '/js/main.js',
     '/js/jquery.min.js',
     '/css/main.css',
-    '/img/hamtaro_002.png'
+    '/images/hamtaro_002.png'
 ];
 
 // install cache on browser
