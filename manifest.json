@@ -1,8 +1,8 @@
 {
-  "name": "belajar-pwa",
+  "name": "hamtaro",
   "short_name": "puspitarumm",
-  "theme_color": "#276ea7",
-  "background_color": "#6ab0e7",
+  "theme_color": "#b9b72b",
+  "background_color": "#e1e76a",
   "display": "browser",
   "Scope": "/",
   "start_url": "/",
