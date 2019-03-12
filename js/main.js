@@ -1,14 +1,18 @@
-$(document).ready(function(){
-    // inisiasi api
-    var _url='http://my-json-server.typicode.com/Clareand/belajar-api/mahasiswa';
-    // menampung seluruh data mahasiswa
-    var result='';
-    //menampung gender sebagain option
-    var gender_result='';
-    // menampung semua gender mahasiswa
-    var gender=[];
+$(document).ready(function () {
+    // inisiasi API url
+    var _url = 'https://my-json-server.typicode.com/techtona/belajar-api/mahasiswa';
+    // var _url = 'http://localhost/b2/index.php';
 
-        // $.get(_url,function (data) {
+    // untuk menampung data semua mahasiswa
+    var result = '';
+
+    // untuk menampung gender sbg option di select
+    var gender_result = '';
+    // untuk menampung gender semua mahasiswa
+    var gender = [];
+
+
+    // $.get(_url,function (data) {
     function renderPage(data) {
         $.each(data, function (key, items) {
             _gend = items.gender;
