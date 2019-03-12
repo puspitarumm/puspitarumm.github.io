@@ -3,7 +3,8 @@
   "short_name": "puspitarumm",
   "theme_color": "#b9b72b",
   "background_color": "#e1e76a",
-  "display": "browser",
+  "display": "fullscrean",
+  "orientation": "portrait",
   "Scope": "/",
   "start_url": "/",
   "icons": [
